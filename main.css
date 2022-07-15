@@ -1,0 +1,43 @@
+body{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock{
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+#date{
+}
+
+
+.login{
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textbox{
+    padding: 10px;
+}
+.textbox::placeholder{
+    text-align: center;
+    font-size: 20px;
+}
+
+.box:nth-child(3){
+    width: 100%;
+    border-top: 1px solid black;
+}
+#bor{
+}
